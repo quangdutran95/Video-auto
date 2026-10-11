@@ -1,0 +1,528 @@
+[metadata]
+title = "Có những người không ngã vì kém — bài học về sự khiêm nhường"
+language = "vi"
+platform = "tiktok"
+target_duration_seconds = 168
+aspect_ratio = "9:16"
+
+[creative]
+audience = "Người trưởng thành, đặc biệt những ai đang trên đà thành công"
+goal = "Nhắc nhở về sự kiêu ngạo khi lên cao và bài học về khiêm nhường thực sự"
+emotional_arc = ["hook", "build", "turn", "resolution"]
+tone = "reflective"
+cta = ""
+
+[voiceover]
+script = """
+Có những người không ngã vì kém.
+Họ ngã vì lúc lên cao đã quên cách cúi đầu.
+Khi còn ở dưới, ai cũng biết cẩn thận.
+Nói một câu cũng nghĩ trước nghĩ sau.
+Làm một việc cũng sợ mình sai.
+Nhưng khi có chút thành tựu, có chút tiền, có chút vị trí, nhiều người bắt đầu đổi giọng.
+Họ nói chuyện cao hơn.
+Nhìn người khác thấp hơn.
+Và nghĩ rằng những người im lặng là những người không đáng bận tâm.
+Nhưng đời lạ lắm.
+Người bạn xem nhẹ hôm nay, có khi lại là người chứng kiến bạn trượt chân ngày mai.
+Lúc bạn đang thuận, không ai nói gì.
+Không có nghĩa là họ không thấy.
+Một câu khinh người.
+Một lần làm người khác mất mặt.
+Một thái độ xem thường.
+Tất cả đều được người ta ghi lại, chỉ là họ chưa cần nói ra.
+Đến khi thời vận đổi chiều, bạn mới hiểu:
+Không phải ai cũng muốn đẩy bạn ngã.
+Nhưng người từng bị bạn coi nhẹ cũng không còn lý do để đưa tay đỡ bạn.
+Khiêm nhường không phải là yếu.
+Khiêm nhường là biết mình đang đứng ở đâu, và biết dưới chân mình vẫn còn đường dài.
+Người thật sự từng trải thường không ồn ào.
+Giỏi, họ không cần khoe hết.
+Có tiền, họ không cần làm người khác thấy nhỏ lại.
+Có vị thế, họ càng giữ lời nói chừng mực hơn.
+Không phải vì họ thiếu thứ để thể hiện.
+Mà vì họ hiểu: càng nổi bật, càng dễ bị soi. Càng cao giọng, càng dễ tự tạo đối thủ.
+Sống biết chừa đường lui không phải là tính toán.
+Đó là khôn ngoan.
+Là khi thắng cũng không dồn người khác vào đường cùng.
+Khi hơn cũng không cần ép ai phải cúi đầu.
+Khi đi lên vẫn nhớ giữ lại một chút tử tế cho ngày mình đi xuống.
+Bởi đường đời không phải lúc nào cũng thẳng.
+Có lúc tiến.
+Có lúc dừng.
+Và có lúc, lùi một bước lại giúp bạn giữ được nhiều thứ hơn là cố bước thêm một bước.
+Đến cuối cùng, người đi được đường dài không phải người lúc nào cũng tiến lên.
+Mà là người biết khi nào nên tiến, khi nào nên im lặng, và khi nào nên lùi để đứng vững lâu hơn.
+"""
+delivery = "trầm, rõ, chậm — giọng người đã từng trải và thấu hiểu"
+
+# NOTE: start_hint/end_hint ước tính ~2.5 từ/giây.
+# Chạy timestamp_resolver.py sau khi có transcript để gắn timestamp chính xác.
+
+[[scene_intents]]
+id = "SC_01"
+start_hint = 0.0
+end_hint = 3.0
+duration_hint = 3.0
+narrative_role = "hook"
+spoken_text = "Có những người không ngã vì kém."
+visual_intent = "A sturdy figure standing upright at the top of a steep staircase — not fallen, not weak. The staircase is solid beneath his feet. The fall has not happened yet. But the figure stands with chest too high, chin tilted upward. The pride before the fall, not the fall itself. Minimalist watercolor on aged parchment, 9:16 vertical, 80% negative space. Mood: quiet foreboding."
+mood = "foreboding"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_02"
+start_hint = 3.0
+end_hint = 7.5
+duration_hint = 4.5
+narrative_role = "hook"
+spoken_text = "Họ ngã vì lúc lên cao đã quên cách cúi đầu."
+visual_intent = "A bamboo stalk that grew too rigid — it snapped under wind while the flexible ones beside it bent and survived. The broken stalk lies across the frame diagonally, its top touching the ground. The wind is implied, not shown. Minimalist ink wash on aged parchment, 9:16 vertical. Mood: the consequence of forgetting to yield."
+mood = "sobering"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_03"
+start_hint = 7.5
+end_hint = 11.0
+duration_hint = 3.5
+narrative_role = "build"
+spoken_text = "Khi còn ở dưới, ai cũng biết cẩn thận."
+visual_intent = "Young Scholar — soft round face, black hair in small top bun, faded olive-gray robe, brown cloth belt, calm restrained expression, soft chibi proportions — crouching low at the base of a tall stone wall, one hand placed respectfully against it. His posture is small, careful, humble. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the natural humility of those who have not yet risen."
+mood = "humble"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_04"
+start_hint = 11.0
+end_hint = 14.5
+duration_hint = 3.5
+narrative_role = "build"
+spoken_text = "Nói một câu cũng nghĩ trước nghĩ sau."
+visual_intent = "A single ink brush hovering above a blank scroll — paused mid-air, not yet touching the paper. The hesitation before speaking. The space between thought and word. Minimalist watercolor, aged parchment, 9:16 vertical, 85% negative space. Mood: the weight of measured words."
+mood = "careful"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_05"
+start_hint = 14.5
+end_hint = 17.5
+duration_hint = 3.0
+narrative_role = "build"
+spoken_text = "Làm một việc cũng sợ mình sai."
+visual_intent = "Young Scholar — soft round face, olive-gray robe — kneeling over a piece of work with a small candle nearby, checking carefully with a worried but earnest expression. His hands hover over the work without touching — double-checking, afraid of error. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: sincere caution."
+mood = "earnest"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_06"
+start_hint = 17.5
+end_hint = 24.0
+duration_hint = 6.5
+narrative_role = "build"
+spoken_text = "Nhưng khi có chút thành tựu, có chút tiền, có chút vị trí, nhiều người bắt đầu đổi giọng."
+visual_intent = "The same Young Scholar figure — but now wearing a slightly better robe, standing straighter, chin raised. In one hand, a scroll of achievement. His expression has shifted: the warmth is gone, replaced by a subtle coldness. The same person; a different posture toward the world. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the quiet corruption of early success."
+mood = "changed"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_07"
+start_hint = 24.0
+end_hint = 26.0
+duration_hint = 2.0
+narrative_role = "build"
+spoken_text = "Họ nói chuyện cao hơn."
+visual_intent = "A figure standing on a raised platform, mouth open, speaking downward to empty space below. The platform is made of stacked scrolls — achievements used as elevation. The figure does not notice the platform is unstable. Minimalist ink wash, aged parchment, 9:16 vertical. Mood: oblivious superiority."
+mood = "arrogant"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_08"
+start_hint = 26.0
+end_hint = 28.0
+duration_hint = 2.0
+narrative_role = "build"
+spoken_text = "Nhìn người khác thấp hơn."
+visual_intent = "A pair of eyes — drawn in minimalist ink — looking downward at an angle. Below the gaze, a small figure goes about its quiet work, unaware it is being looked down upon. The small figure is dignified; the gaze is not. Aged parchment, 9:16 vertical. Mood: the blindness of condescension."
+mood = "condescending"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_09"
+start_hint = 28.0
+end_hint = 32.5
+duration_hint = 4.5
+narrative_role = "build"
+spoken_text = "Và nghĩ rằng những người im lặng là những người không đáng bận tâm."
+visual_intent = "Several small quiet figures standing in stillness around the edge of the frame — mouths closed, eyes calm. In the center, a larger figure turns its back on all of them. The quiet figures do not react. They simply watch, and remember. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the dangerous dismissal of the silent."
+mood = "dismissive"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_10"
+start_hint = 32.5
+end_hint = 34.5
+duration_hint = 2.0
+narrative_role = "turn"
+spoken_text = "Nhưng đời lạ lắm."
+visual_intent = "A winding river seen from above — it starts wide and easy, then curves back on itself unexpectedly, ending in a direction no one predicted. Simple ink brushwork, aged parchment, 9:16 vertical, vast empty space. Mood: the quiet irony of fate."
+mood = "ironic"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_11"
+start_hint = 34.5
+end_hint = 41.0
+duration_hint = 6.5
+narrative_role = "turn"
+spoken_text = "Người bạn xem nhẹ hôm nay, có khi lại là người chứng kiến bạn trượt chân ngày mai."
+visual_intent = "A figure slipping on a mountain path — one foot losing grip on wet stone. Below, at the edge of frame, a small quiet figure stands watching. The watching figure does not rush forward to help — it simply watches. Its face holds no expression of satisfaction, only the calm recognition of what it always knew. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the silent witness."
+mood = "witnessing"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_12"
+start_hint = 41.0
+end_hint = 44.0
+duration_hint = 3.0
+narrative_role = "turn"
+spoken_text = "Lúc bạn đang thuận, không ai nói gì."
+visual_intent = "A figure walking a smooth, wide path in bright light. On either side of the path, many small still figures watch in silence. Their mouths are closed. None of them speak. Their eyes are open. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the deceptive quiet of favorable times."
+mood = "deceptive-calm"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_13"
+start_hint = 44.0
+end_hint = 47.0
+duration_hint = 3.0
+narrative_role = "turn"
+spoken_text = "Không có nghĩa là họ không thấy."
+visual_intent = "A single pair of open eyes — calm, still, ancient — drawn in minimalist ink in the center of the parchment. The eyes see everything. They have always seen. They simply chose not to speak. Vast empty parchment, 9:16 vertical. Mood: the weight of being silently observed."
+mood = "seen"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_14"
+start_hint = 47.0
+end_hint = 49.0
+duration_hint = 2.0
+narrative_role = "turn"
+spoken_text = "Một câu khinh người."
+visual_intent = "A single ink brushstroke — sharp, careless, slashing across the parchment. It cannot be undone. The mark remains. Minimalist, aged parchment, 9:16 vertical. Mood: the permanence of a careless word."
+mood = "regret"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_15"
+start_hint = 49.0
+end_hint = 52.0
+duration_hint = 3.0
+narrative_role = "turn"
+spoken_text = "Một lần làm người khác mất mặt."
+visual_intent = "A broken teacup lying on its side — the crack running through it clean and irreparable. Beside it, a single tea stain on the white parchment that cannot be wiped away. No people. Pure symbol of something broken that cannot be fixed. Minimalist ink wash, aged parchment, 9:16 vertical. Mood: the irreversibility of humiliation given."
+mood = "broken"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_16"
+start_hint = 52.0
+end_hint = 54.0
+duration_hint = 2.0
+narrative_role = "turn"
+spoken_text = "Một thái độ xem thường."
+visual_intent = "A turned back — a figure seen only from behind, robe swept slightly to the side in the act of dismissal. The figure's posture expresses everything that its unseen face does not need to. The space in front of the turned figure is empty and cold. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the cruelty of indifference."
+mood = "indifferent"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_17"
+start_hint = 54.0
+end_hint = 59.5
+duration_hint = 5.5
+narrative_role = "turn"
+spoken_text = "Tất cả đều được người ta ghi lại, chỉ là họ chưa cần nói ra."
+visual_intent = "Many small ink marks — tiny brushstrokes, each one a recorded moment — scattered across the lower portion of the parchment. They accumulate quietly, patient and numerous. Above them, vast empty space. No one reads them aloud. But they are there. Minimalist ink on aged parchment, 9:16 vertical. Mood: the quiet accounting of wrongs never spoken."
+mood = "accounting"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_18"
+start_hint = 59.5
+end_hint = 63.0
+duration_hint = 3.5
+narrative_role = "turn"
+spoken_text = "Đến khi thời vận đổi chiều, bạn mới hiểu:"
+visual_intent = "An hourglass tilting — slowly being turned upside down. The sand that was above is now falling. The orientation of everything has reversed. Minimalist ink watercolor, aged parchment, 9:16 vertical. Mood: the inevitable reversal of fortune."
+mood = "reversal"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_19"
+start_hint = 63.0
+end_hint = 66.0
+duration_hint = 3.0
+narrative_role = "turn"
+spoken_text = "Không phải ai cũng muốn đẩy bạn ngã."
+visual_intent = "A figure stumbling on a steep path — and around it, the quiet figures from before simply stand and watch. None of them reaches out a hand. None of them pushes either. They simply stand still. Their neutrality is the point. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the neutrality that feels like abandonment."
+mood = "abandoned"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_20"
+start_hint = 66.0
+end_hint = 72.5
+duration_hint = 6.5
+narrative_role = "turn"
+spoken_text = "Nhưng người từng bị bạn coi nhẹ cũng không còn lý do để đưa tay đỡ bạn."
+visual_intent = "A figure fallen at the bottom of stone steps, one hand reaching upward. Above on the steps, a small quiet figure stands — the one who was once dismissed. Its hands remain at its sides. Not cruel. Not triumphant. Simply without reason to act. The space between the reaching hand and the still hands is vast. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the quiet consequence of contempt."
+mood = "consequence"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_21"
+start_hint = 72.5
+end_hint = 75.0
+duration_hint = 2.5
+narrative_role = "resolution"
+spoken_text = "Khiêm nhường không phải là yếu."
+visual_intent = "Old Master — elderly man, thin white beard, soft wrinkles, muted brown robe, calm smile, slightly hunched, soft chibi proportions — standing with head bowed slightly, but his posture radiates quiet strength. His lowered head is not submission — it is the bow of someone who has nothing to prove. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the strength inside humility."
+mood = "dignified-humility"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_22"
+start_hint = 75.0
+end_hint = 82.0
+duration_hint = 7.0
+narrative_role = "resolution"
+spoken_text = "Khiêm nhường là biết mình đang đứng ở đâu, và biết dưới chân mình vẫn còn đường dài."
+visual_intent = "Old Master standing on a mountain ledge, looking down at the path that still stretches far below him. He sees how high he has come — and how far the road still descends into the valley. Both truths at once: the height already gained, and the distance yet to travel. Minimalist watercolor, aged parchment, 9:16 vertical, vast open sky above. Mood: grounded self-awareness."
+mood = "grounded"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_23"
+start_hint = 82.0
+end_hint = 86.0
+duration_hint = 4.0
+narrative_role = "resolution"
+spoken_text = "Người thật sự từng trải thường không ồn ào."
+visual_intent = "Old Master seated alone by a still pond, no words, no gesture. His robe is simple. His presence fills the frame not through size but through stillness. Around him, the world's noise does not land. Aged parchment, minimalist watercolor, 9:16 vertical, 85% negative space. Mood: the quiet weight of true experience."
+mood = "still"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_24"
+start_hint = 86.0
+end_hint = 88.5
+duration_hint = 2.5
+narrative_role = "resolution"
+spoken_text = "Giỏi, họ không cần khoe hết."
+visual_intent = "A deep well seen from above — its water dark and cool and immeasurably deep. The surface is still. Nothing announces how deep it goes. Minimalist ink wash on aged parchment, 9:16 vertical. Mood: depth that needs no announcement."
+mood = "depth"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_25"
+start_hint = 88.5
+end_hint = 93.0
+duration_hint = 4.5
+narrative_role = "resolution"
+spoken_text = "Có tiền, họ không cần làm người khác thấy nhỏ lại."
+visual_intent = "Old Master offering a simple bowl of tea to a small younger figure seated opposite. No difference in height between them. No performance of status. Just two people, one cup. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: wealth expressed as generosity, not elevation."
+mood = "generous"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_26"
+start_hint = 93.0
+end_hint = 97.5
+duration_hint = 4.5
+narrative_role = "resolution"
+spoken_text = "Có vị thế, họ càng giữ lời nói chừng mực hơn."
+visual_intent = "Old Master with one finger raised gently to his lips — a soft gesture of chosen silence. Not secrecy; restraint. His expression is warm, not withholding. He simply knows that the higher you stand, the more weight your words carry. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the discipline of measured speech."
+mood = "measured"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_27"
+start_hint = 97.5
+end_hint = 101.0
+duration_hint = 3.5
+narrative_role = "resolution"
+spoken_text = "Không phải vì họ thiếu thứ để thể hiện."
+visual_intent = "A closed treasure chest sitting alone in empty space — its lock fastened, its wood rich and aged. It is full. It simply does not open for anyone who does not deserve to see inside. Minimalist ink wash, aged parchment, 9:16 vertical. Mood: abundance that does not need to prove itself."
+mood = "contained"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_28"
+start_hint = 101.0
+end_hint = 108.5
+duration_hint = 7.5
+narrative_role = "resolution"
+spoken_text = "Mà vì họ hiểu: càng nổi bật, càng dễ bị soi. Càng cao giọng, càng dễ tự tạo đối thủ."
+visual_intent = "A tall bright lantern raised high on a pole — it illuminates everything around it, but it also draws every moth and every gust of wind directly to its flame. The higher the light, the more exposed. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the strategic wisdom of not being the tallest flame."
+mood = "strategic"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_29"
+start_hint = 108.5
+end_hint = 112.0
+duration_hint = 3.5
+narrative_role = "resolution"
+spoken_text = "Sống biết chừa đường lui không phải là tính toán."
+visual_intent = "A figure on a narrow bridge — but it has stepped slightly to the side, leaving half the bridge open and passable for others. The gesture is natural, unhurried. Not retreating. Creating space. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the grace of leaving room."
+mood = "gracious"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_30"
+start_hint = 112.0
+end_hint = 114.0
+duration_hint = 2.0
+narrative_role = "resolution"
+spoken_text = "Đó là khôn ngoan."
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, calm smile — eyes half-closed, expression serene and knowing. A single nod implied in his stillness. No words. The nod that confirms everything. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the quiet confirmation of wisdom."
+mood = "knowing"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_31"
+start_hint = 114.0
+end_hint = 118.0
+duration_hint = 4.0
+narrative_role = "resolution"
+spoken_text = "Là khi thắng cũng không dồn người khác vào đường cùng."
+visual_intent = "Two figures at opposite ends of a narrow path — one has clearly won, stands at the better end. But the figure steps aside entirely, opening the other end of the path. The defeated figure can leave with dignity. No corner. No trap. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the mercy of victory."
+mood = "merciful"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_32"
+start_hint = 118.0
+end_hint = 122.0
+duration_hint = 4.0
+narrative_role = "resolution"
+spoken_text = "Khi hơn cũng không cần ép ai phải cúi đầu."
+visual_intent = "Old Master standing before a younger figure. The younger figure's head is bowed in respect — but the Master reaches out with one gentle hand and lifts the younger figure's chin. You do not need to bow to me. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the generosity of the truly powerful."
+mood = "uplifting"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_33"
+start_hint = 122.0
+end_hint = 128.5
+duration_hint = 6.5
+narrative_role = "resolution"
+spoken_text = "Khi đi lên vẫn nhớ giữ lại một chút tử tế cho ngày mình đi xuống."
+visual_intent = "A figure ascending stone steps — but with one hand trailing behind, leaving a small lantern at each step it has passed. The lanterns glow softly on the steps below. If it must descend one day, the path will be lit. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the foresight of kindness."
+mood = "foresighted"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_34"
+start_hint = 128.5
+end_hint = 132.5
+duration_hint = 4.0
+narrative_role = "resolution"
+spoken_text = "Bởi đường đời không phải lúc nào cũng thẳng."
+visual_intent = "A path drawn in ink — beginning straight, then curving left, then right, then doubling back before continuing forward again. No destination shown. The path itself is the truth. Minimalist ink on aged parchment, 9:16 vertical, vast empty space around it. Mood: the honest nature of life's road."
+mood = "honest"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_35"
+start_hint = 132.5
+end_hint = 134.0
+duration_hint = 1.5
+narrative_role = "resolution"
+spoken_text = "Có lúc tiến."
+visual_intent = "A single footstep pressing forward into soft ground — an impression moving ahead. Just one step. Clear direction. Minimalist ink stamp on aged parchment, 9:16 vertical. Mood: forward motion, simple and sure."
+mood = "forward"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_36"
+start_hint = 134.0
+end_hint = 135.5
+duration_hint = 1.5
+narrative_role = "resolution"
+spoken_text = "Có lúc dừng."
+visual_intent = "Two footprints side by side — stopped. No more steps ahead. The ground is still. The pause is complete and deliberate. Minimalist ink on aged parchment, 9:16 vertical. Mood: the strength of chosen stillness."
+mood = "paused"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_37"
+start_hint = 135.5
+end_hint = 143.5
+duration_hint = 8.0
+narrative_role = "resolution"
+spoken_text = "Và có lúc, lùi một bước lại giúp bạn giữ được nhiều thứ hơn là cố bước thêm một bước."
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe — taking one deliberate step backward on a narrow cliff path. Just ahead where he would have stepped, the edge crumbles away into the void. The step back saved everything. His expression is calm — he knew. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the wisdom of strategic retreat."
+mood = "wise-retreat"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_38"
+start_hint = 143.5
+end_hint = 149.5
+duration_hint = 6.0
+narrative_role = "resolution"
+spoken_text = "Đến cuối cùng, người đi được đường dài không phải người lúc nào cũng tiến lên."
+visual_intent = "A long winding road seen in full — many figures began it, their faint outlines visible at various stages. Most have stopped or fallen. One lone figure continues near the far end — not the fastest, not the loudest, but still moving. Old Master proportions: small, steady, unhurried. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the quiet endurance of the long journey."
+mood = "enduring"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_39"
+start_hint = 149.5
+end_hint = 168.0
+duration_hint = 18.5
+narrative_role = "resolution"
+spoken_text = "Mà là người biết khi nào nên tiến, khi nào nên im lặng, và khi nào nên lùi để đứng vững lâu hơn."
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, serene smile — standing at the top of a gentle hill, facing away from the viewer toward a vast pale horizon. One foot slightly forward, weight balanced — neither pressing ahead nor holding back. Just present, reading the moment. His figure is very small against the immense empty sky. Aged parchment, minimalist watercolor, 90% negative space, 9:16 vertical. Mood: the final peace of someone who has mastered timing."
+mood = "mastery"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]

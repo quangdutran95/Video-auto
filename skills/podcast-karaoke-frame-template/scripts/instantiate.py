@@ -49,8 +49,32 @@ def build_props(job: Path, brand: str, subtitle_top_pct: float, highlight_color:
     if not transcript_path.exists():
         die(f"transcript not found: {transcript_path}")
 
-    render_plan = tomllib.loads(render_plan_path.read_text())
-    transcript = tomllib.loads(transcript_path.read_text())
+    # Generate subtitle_screens.json if missing
+    subtitle_screens_path = job / "source" / "subtitle_screens.json"
+    if not subtitle_screens_path.exists():
+        import sys
+        import subprocess
+        print("subtitle_screens.json not found. Running split_subtitle_screens.py...")
+        splitter_script = REPO_ROOT / "skills" / "subtitle-screen-splitter" / "scripts" / "split_subtitle_screens.py"
+        if splitter_script.exists():
+            subprocess.run([
+                sys.executable,
+                str(splitter_script),
+                "--transcript", str(transcript_path),
+                "--output", str(subtitle_screens_path),
+                "--max-words", "12",
+                "--max-chars", "48"
+            ], check=True)
+        else:
+            print(f"Warning: splitter script not found at {splitter_script}", file=sys.stderr)
+
+    pages = []
+    if subtitle_screens_path.exists():
+        screens_data = json.loads(subtitle_screens_path.read_text(encoding="utf-8"))
+        pages = screens_data.get("pages", [])
+
+    render_plan = tomllib.loads(render_plan_path.read_text(encoding="utf-8"))
+    transcript = tomllib.loads(transcript_path.read_text(encoding="utf-8"))
     public_assets = job / "remotion" / "public" / "assets"
 
     copied: dict[str, str] = {}
@@ -105,6 +129,7 @@ def build_props(job: Path, brand: str, subtitle_top_pct: float, highlight_color:
         },
         "clips": clips,
         "words": words,
+        "pages": pages,
     }
 
 
@@ -129,7 +154,7 @@ clips = {len(props["clips"])}
 words = {len(props["words"])}
 voice_src = {json.dumps(props["voiceSrc"], ensure_ascii=False)}
 """
-    (job / "source" / "template_params.toml").write_text(text)
+    (job / "source" / "template_params.toml").write_text(text, encoding="utf-8")
 
 
 def main() -> None:
@@ -146,7 +171,7 @@ def main() -> None:
     copytree_template(job)
     props = build_props(job, args.brand, args.subtitle_top_pct, args.highlight_color)
     props_path = job / "remotion" / "public" / "template-props.json"
-    props_path.write_text(json.dumps(props, ensure_ascii=False, indent=2) + "\n")
+    props_path.write_text(json.dumps(props, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     write_template_params(job, props)
     print(f"wrote {props_path}")
     print(f"wrote {job / 'source' / 'template_params.toml'}")

@@ -1,0 +1,21 @@
+---
+description: Quy tắc bắt buộc khi tạo ảnh bằng extension TobyFlow (thời gian chờ và xử lý lỗi)
+globs: jobs/**/*, tools/**/*, scratch/**/*
+alwaysApply: true
+---
+
+# Quy tắc tạo ảnh bằng TobyFlow Extension
+
+Khi chạy quy trình tạo ảnh thông qua TobyFlow Extension (`tools/tobyflow_bridge.py` hoặc các script điều phối tương ứng), BẮT BUỘC tuân thủ các quy tắc về thời gian chờ và khôi phục lỗi sau:
+
+1. **Thời gian chờ ban đầu (Initial Wait)**:
+   - Hãy chờ **5 phút (300 giây)** đầu tiên để quy trình sinh ảnh và tải về hoàn tất.
+
+2. **Kiểm tra và chờ thêm (Periodic Check)**:
+   - Nếu quy trình tạo ảnh vẫn còn hoạt động (chưa báo kết thúc), hãy tiếp tục chờ thêm **3 phút (180 giây)**, sau đó kiểm tra tiếp.
+   - Nếu vẫn chưa kết thúc, tiếp tục chờ **3 phút (180 giây)** nữa và kiểm tra tiếp. Lặp lại chu kỳ này cho đến khi quy trình kết thúc.
+
+3. **Xử lý lỗi và Tạo lại (Error Recovery)**:
+   - Khi quy trình đã báo kết thúc, hãy đối chiếu số lượng ảnh thực tế trong thư mục đầu ra `input/raw_assets/images` với số lượng phân cảnh trong `creative_plan.toml`.
+   - Nếu có ảnh bị thiếu hoặc lỗi (quy trình báo kết thúc nhưng thư mục chưa đủ ảnh cho các phân cảnh), điều này có nghĩa là đã xảy ra lỗi trong lúc sinh ảnh.
+   - Hãy chạy lại quy trình (re-submit) chỉ cho các cảnh bị lỗi/thiếu đó.

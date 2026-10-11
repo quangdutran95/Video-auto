@@ -1,0 +1,536 @@
+[metadata]
+title = "Bốn điều khắc cốt ghi tâm khi đối đãi người không thích"
+language = "vi"
+platform = "tiktok"
+target_duration_seconds = 195
+aspect_ratio = "9:16"
+
+[creative]
+audience = "Người trưởng thành muốn giữ bình tĩnh và trưởng thành hơn trong ứng xử"
+goal = "Truyền tải 4 bài học minh triết về cách đối đãi người mình không thích mà không mất năng lượng"
+emotional_arc = ["hook", "build", "build", "build", "turn", "resolution"]
+tone = "reflective"
+cta = "Giới thiệu sách Tĩnh Thức"
+
+[voiceover]
+script = """
+Để đối đãi với người mình không thích, bạn không cần phải lật mặt hay lớn tiếng. Hãy khắc cốt ghi tâm bốn điều sau đây. Đặc biệt là điều thứ ba, nó sẽ giúp bạn thay đổi hoàn toàn tâm thế.
+
+Một, tam quan không hợp, đừng phí lời. Tầng thứ khác nhau, chẳng cần tranh luận. Khi thế giới quan, nhân sinh quan và giá trị quan không tương đồng, mọi lời giải thích đều trở thành lãng phí. Người ở tầng thứ khác nhau sẽ có góc nhìn khác nhau. Đừng cố gắng thuyết phục một người không cùng tần số. Bởi lẽ, chim ưng thì bay trên trời cao, còn gà quẩn quanh nơi góc bếp. Sự tranh biện lúc này chỉ đem lại mệt mỏi cho chính bạn.
+
+Hai, bạn càng ưu tú, kẻ đố kỵ càng nhiều. Sự xuất sắc của bạn chính là chiếc gương phản chiếu sự vô năng của kẻ khác. Khi bạn tỏa sáng, vô tình bạn đã làm lộ ra sự tối tăm trong lòng những người hẹp hòi. Vì vậy, thay vì buồn phiền vì bị ghét bỏ, hãy hiểu rằng đó là một loại huân chương cho sự thành công của bạn. Kẻ yếu mới đố kỵ. Người mạnh chỉ tập trung vào chính mình.
+
+Ba, đừng so đo với tiểu nhân. Hãy coi họ như không khí. Đây là điều quan trọng nhất. Gặp chó dữ cản đường, cách khôn ngoan nhất là nhường lối cho nó đi qua, chứ không phải đứng lại tranh giành đường đi với nó. Nếu với mỗi con chó sủa bên đường bạn đều dừng lại để ném đá, thì biết đến bao giờ bạn mới tới được đích đến của đời mình. Đừng để những kẻ không xứng đáng làm tiêu hao năng lượng và thời gian quý báu của bạn.
+
+Bốn, nhìn thấu không nói thấu. Hiểu người không vạch trần. Cảnh giới cao nhất của sự trưởng thành là giữ được sự điềm tĩnh trước mọi thị phi. Nhìn thấu nhưng không nói thấu, để giữ lại cho người khác một lối thoát và cho mình một sự an yên. Hiểu người nhưng không vạch trần, luôn giữ nụ cười trên môi nhưng lòng có sự phòng bị. Miệng không nói, nhưng tâm sáng tựa gương. Biết rõ mọi chuyện mà vẫn thản nhiên như không. Giả khờ giữa chốn nhân gian không phải là yếu đuối, mà là sự minh triết của một bậc cao nhân thực thụ. Khi lòng bạn đủ tĩnh, thế gian sẽ không còn ai có thể làm bạn dao động.
+
+Khi thật sự hiểu bốn điều này, bạn sẽ nhận ra một sự thật quan trọng: thế giới bên ngoài không thay đổi nhiều. Thứ thay đổi chính là tâm thế của chúng ta. Người chưa đủ nhận thức luôn muốn tranh đúng sai, muốn chứng minh bản thân. Nhưng người trưởng thành lại học được cách bớt lời, lùi một bước và giữ cho mình sự bình thản. Rất nhiều phiền não trong đời thực ra bắt nguồn từ cách ta phản ứng với người khác. Khi học được cách quan sát cảm xúc và nhìn thấu bản chất các mối quan hệ, nội tâm tự nhiên sẽ nhẹ nhõm hơn. Đó cũng chính là điều cuốn sách Tĩnh Thức này muốn truyền tải. Với 81 bài viết đánh thức nhận thức cùng 39 câu chuyện chiêm nghiệm về nhân sinh, cuốn sách giúp bạn hiểu rõ hơn những chiếc bẫy cảm xúc và cách giữ tâm bình lặng giữa thị phi. Khi nhận thức đủ sáng, bạn sẽ hiểu rằng trưởng thành không phải là thay đổi người khác, mà là không còn để những điều nhỏ nhặt làm mình dao động.
+"""
+delivery = "trầm, rõ, điềm tĩnh — giọng người thấu hiểu đời"
+
+# NOTE: start_hint / end_hint là ước tính sơ bộ (~3 từ/giây).
+# Chạy timestamp_resolver.py sau khi có transcript để gắn timestamp chính xác.
+
+# ════════════════════════════════════════════════════════
+# HOOK
+# ════════════════════════════════════════════════════════
+
+[[scene_intents]]
+id = "SC_01"
+start_hint = 0.0
+end_hint = 6.0
+duration_hint = 6.0
+narrative_role = "hook"
+spoken_text = """Để đối đãi với người mình không thích, bạn không cần phải lật mặt hay lớn tiếng."""
+visual_intent = "Old Master — elderly man, thin white beard, soft wrinkles, muted brown robe, calm smile, slightly hunched, soft chibi proportions — sitting alone in stillness, both hands folded in lap, eyes lowered, a single closed fist resting open on one knee. The closed fist slowly relaxes into an open palm — the gesture of choosing restraint over reaction. Vast aged parchment background, 80% negative space, 9:16 vertical, minimalist watercolor."
+mood = "serene"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_02"
+start_hint = 6.0
+end_hint = 9.0
+duration_hint = 3.0
+narrative_role = "hook"
+spoken_text = """Hãy khắc cốt ghi tâm bốn điều sau đây."""
+visual_intent = "A single open scroll lying flat on an empty wooden surface, its blank parchment centre waiting to receive four strokes of ink. An ink brush rests beside it, not yet touching. Vast negative space above, 9:16 vertical, minimalist watercolor on aged parchment. Mood: quiet readiness, the moment before wisdom is written."
+mood = "anticipation"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_03"
+start_hint = 9.0
+end_hint = 13.0
+duration_hint = 4.0
+narrative_role = "hook"
+spoken_text = """Đặc biệt là điều thứ ba, nó sẽ giúp bạn thay đổi hoàn toàn tâm thế."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, calm smile — lifting one finger gently, eyes looking slightly upward as if recalling something profound. A subtle warmth in expression: not teaching, but remembering. Parchment background, 80% negative space, 9:16 vertical, soft watercolor ink wash."
+mood = "knowing"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+# ════════════════════════════════════════════════════════
+# ĐIỀU 1 — TAM QUAN KHÔNG HỢP, ĐỪNG PHÍ LỜI
+# ════════════════════════════════════════════════════════
+
+[[scene_intents]]
+id = "SC_04"
+start_hint = 13.0
+end_hint = 17.0
+duration_hint = 4.0
+narrative_role = "build"
+spoken_text = """Một, tam quan không hợp, đừng phí lời."""
+visual_intent = "A single large Chinese-style ink numeral '一' (one) painted boldly in the upper third of the frame, brush strokes fading at the edges. Below it, the faintest suggestion of two small figures facing each other but with empty space between them — not meeting, not connecting. Aged parchment background, 9:16 vertical, minimalist ink wash. Mood: clear, definitive."
+mood = "clear"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_05"
+start_hint = 17.0
+end_hint = 19.5
+duration_hint = 2.5
+narrative_role = "build"
+spoken_text = """Tầng thứ khác nhau, chẳng cần tranh luận."""
+visual_intent = "Two figures at very different heights on a vertical parchment frame — one tiny silhouette at the very top of a cliff edge gazing outward, another tiny silhouette at the bottom of the cliff looking up. The vast stone wall between them occupies 70% of the frame. They exist in the same world but at entirely different levels. Minimalist watercolor, aged parchment, 9:16 vertical."
+mood = "detached"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_06"
+start_hint = 19.5
+end_hint = 27.0
+duration_hint = 7.5
+narrative_role = "build"
+spoken_text = """Khi thế giới quan, nhân sinh quan và giá trị quan không tương đồng, mọi lời giải thích đều trở thành lãng phí."""
+visual_intent = "An open mouth shape formed in soft watercolor ink, from which small speech-bubble strokes emerge and immediately dissolve into thin air — the words evaporating before landing anywhere. The surrounding space is vast and empty, swallowing all sound. Aged parchment background, 9:16 vertical, 85% negative space. Mood: futility, the silence after wasted words."
+mood = "futile"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_07"
+start_hint = 27.0
+end_hint = 31.0
+duration_hint = 4.0
+narrative_role = "build"
+spoken_text = """Người ở tầng thứ khác nhau sẽ có góc nhìn khác nhau."""
+visual_intent = "Two small figures — one standing on a hilltop, one standing in a valley — both looking at the same moon. But from above, the moon is bright and close. From below, it appears small and distant. Same moon, two entirely different perceptions. Minimalist watercolor, aged parchment, 9:16 vertical, 80% empty sky. Mood: quiet acceptance of difference."
+mood = "accepting"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_08"
+start_hint = 31.0
+end_hint = 34.5
+duration_hint = 3.5
+narrative_role = "build"
+spoken_text = """Đừng cố gắng thuyết phục một người không cùng tần số."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, calm smile — standing with one hand extended palm-outward: a gentle but firm gesture of stopping, not rejecting. His face holds no anger, only serene clarity. The space in front of him is entirely empty — there is no one to convince, and he has accepted that. Parchment background, 9:16 vertical."
+mood = "resolute"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_09"
+start_hint = 34.5
+end_hint = 39.0
+duration_hint = 4.5
+narrative_role = "build"
+spoken_text = """Bởi lẽ, chim ưng thì bay trên trời cao, còn gà quẩn quanh nơi góc bếp."""
+visual_intent = "A lone eagle silhouette soaring near the very top of the frame — small, free, high. Far below at the bottom corner, a tiny chicken shape pecks the ground. The vast pale sky between them occupies 80% of the vertical frame. No characters — pure symbolic imagery. Minimalist ink wash on aged parchment, 9:16 vertical. Mood: the natural distance between different levels of existence."
+mood = "elevated"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_10"
+start_hint = 39.0
+end_hint = 43.0
+duration_hint = 4.0
+narrative_role = "build"
+spoken_text = """Sự tranh biện lúc này chỉ đem lại mệt mỏi cho chính bạn."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe — sitting slumped slightly forward, one hand pressed to his forehead in quiet exhaustion — not pain, but the weary recognition of having argued too long with the wrong person. The space around him is empty and echoing. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: gentle self-reminder."
+mood = "weary"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+# ════════════════════════════════════════════════════════
+# ĐIỀU 2 — CÀNG ƯU TÚ, KẺ ĐỐ KỴ CÀNG NHIỀU
+# ════════════════════════════════════════════════════════
+
+[[scene_intents]]
+id = "SC_11"
+start_hint = 43.0
+end_hint = 46.5
+duration_hint = 3.5
+narrative_role = "build"
+spoken_text = """Hai, bạn càng ưu tú, kẻ đố kỵ càng nhiều."""
+visual_intent = "A tall, slender pine tree painted in the center of the frame — upright and solitary. Around its base, many small stones have been thrown and lie scattered. The tree stands undisturbed, its trunk unscratched, its branches still. Minimalist watercolor, aged parchment, 9:16 vertical, 80% empty sky above. Mood: quiet endurance."
+mood = "enduring"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_12"
+start_hint = 46.5
+end_hint = 51.0
+duration_hint = 4.5
+narrative_role = "build"
+spoken_text = """Sự xuất sắc của bạn chính là chiếc gương phản chiếu sự vô năng của kẻ khác."""
+visual_intent = "A polished bronze mirror standing upright, alone on a bare surface. In front of it, the faint outline of a crouching, hunched figure — but the mirror reflects back the figure's own smallness in stark clarity. The mirror is beautiful; what it reveals is not the mirror's fault. Aged parchment background, minimalist ink wash, 9:16 vertical. Mood: quiet truth."
+mood = "clear-eyed"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_13"
+start_hint = 51.0
+end_hint = 56.0
+duration_hint = 5.0
+narrative_role = "build"
+spoken_text = """Khi bạn tỏa sáng, vô tình bạn đã làm lộ ra sự tối tăm trong lòng những người hẹp hòi."""
+visual_intent = "A single lit candle stands upright in the center of the frame. Around it, the surrounding space is dark — not dramatic darkness, but a soft watercolor shadow. The shadow does not touch the flame. The candle glows warmly, unaware it is revealing the dark by simply existing. Aged parchment background, 9:16 vertical, minimalist ink wash. Mood: innocent radiance."
+mood = "luminous"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_14"
+start_hint = 56.0
+end_hint = 62.0
+duration_hint = 6.0
+narrative_role = "build"
+spoken_text = """Vì vậy, thay vì buồn phiền vì bị ghét bỏ, hãy hiểu rằng đó là một loại huân chương cho sự thành công của bạn."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, warm calm smile — sitting quietly, one hand resting over his chest as if feeling a medal there. His eyes are closed, his posture dignified. He is not proud — he is at peace. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: quiet dignity, chosen gratitude."
+mood = "dignified"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_15"
+start_hint = 62.0
+end_hint = 63.5
+duration_hint = 1.5
+narrative_role = "build"
+spoken_text = """Kẻ yếu mới đố kỵ."""
+visual_intent = "A small withered branch on the ground, stripped of leaves, lying in the shadow cast by a tall healthy tree above. The branch is not angry — it simply cannot grow upward. Symbolic composition, no characters. Aged parchment, minimalist ink wash, 9:16 vertical. Mood: quiet truth about weakness."
+mood = "truth"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_16"
+start_hint = 63.5
+end_hint = 66.0
+duration_hint = 2.5
+narrative_role = "build"
+spoken_text = """Người mạnh chỉ tập trung vào chính mình."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe — seated cross-legged in deep meditation, both hands resting on knees, eyes closed. His figure is small and still in the center of vast empty space. Nothing outside pulls at him. Aged parchment, 85% negative space, 9:16 vertical. Mood: absolute inner focus."
+mood = "focused"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+# ════════════════════════════════════════════════════════
+# ĐIỀU 3 — ĐỪNG SO ĐO VỚI TIỂU NHÂN
+# ════════════════════════════════════════════════════════
+
+[[scene_intents]]
+id = "SC_17"
+start_hint = 66.0
+end_hint = 69.0
+duration_hint = 3.0
+narrative_role = "turn"
+spoken_text = """Ba, đừng so đo với tiểu nhân."""
+visual_intent = "A large ink numeral '三' (three) brushed boldly at the top of the frame. Below it, a tiny figure holds a scale — but the other side of the scale is empty. He is weighing himself against nothing. Aged parchment, 9:16 vertical, minimalist ink wash. Mood: the absurdity of comparing yourself to the unworthy."
+mood = "wry"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_18"
+start_hint = 69.0
+end_hint = 71.0
+duration_hint = 2.0
+narrative_role = "turn"
+spoken_text = """Hãy coi họ như không khí."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, serene expression — seated still, eyes open and calm. Around him, faint watercolor wisps suggesting presence — but he does not look at them, does not acknowledge them. They exist; he simply does not give them weight. Parchment background, 9:16 vertical. Mood: effortless non-attachment."
+mood = "non-attached"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_19"
+start_hint = 71.0
+end_hint = 73.0
+duration_hint = 2.0
+narrative_role = "turn"
+spoken_text = """Đây là điều quan trọng nhất."""
+visual_intent = "A single bold ink circle — enso brushstroke — painted in the center of the frame. Inside the circle: empty. Around it: empty. The circle itself is the statement. Aged parchment, minimalist Zen brushwork, 9:16 vertical. Mood: emphasis through simplicity."
+mood = "emphasis"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_20"
+start_hint = 73.0
+end_hint = 80.0
+duration_hint = 7.0
+narrative_role = "turn"
+spoken_text = """Gặp chó dữ cản đường, cách khôn ngoan nhất là nhường lối cho nó đi qua, chứ không phải đứng lại tranh giành đường đi với nó."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, unhurried posture — standing to the side of a narrow path, body turned gently away, creating space. His face holds a calm half-smile. Where the path was, a suggestion of something small and agitated passes through — and the Master simply watches it go. He does not name it, does not fight it. Parchment background, 9:16 vertical, minimalist watercolor."
+mood = "wise"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_21"
+start_hint = 80.0
+end_hint = 88.0
+duration_hint = 8.0
+narrative_role = "turn"
+spoken_text = """Nếu với mỗi con chó sủa bên đường bạn đều dừng lại để ném đá, thì biết đến bao giờ bạn mới tới được đích đến của đời mình."""
+visual_intent = "A long empty road stretches from the bottom of the frame upward toward a distant light on the horizon — the destination. Along the edges of the road, tiny silhouettes sit and bark. A lone traveler figure stands frozen mid-path, holding a stone, looking sideways — the destination ahead ignored. The road stretches on, waiting. Minimalist watercolor, aged parchment, 9:16 vertical. Mood: the cost of distraction."
+mood = "urgent"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_22"
+start_hint = 88.0
+end_hint = 93.0
+duration_hint = 5.0
+narrative_role = "turn"
+spoken_text = """Đừng để những kẻ không xứng đáng làm tiêu hao năng lượng và thời gian quý báu của bạn."""
+visual_intent = "An hourglass — slim, elegant, ancient — its sand flowing steadily. Around the hourglass, tiny dark hands reach out trying to grip it. But the sand falls regardless. The glass is indifferent. Time does not stop for those who don't deserve it. Aged parchment background, minimalist ink watercolor, 9:16 vertical. Mood: the preciousness of time."
+mood = "precious"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+# ════════════════════════════════════════════════════════
+# ĐIỀU 4 — NHÌN THẤU KHÔNG NÓI THẤU
+# ════════════════════════════════════════════════════════
+
+[[scene_intents]]
+id = "SC_23"
+start_hint = 93.0
+end_hint = 95.5
+duration_hint = 2.5
+narrative_role = "resolution"
+spoken_text = """Bốn, nhìn thấu không nói thấu."""
+visual_intent = "A large ink numeral '四' (four) brushed at the top of the frame. Below it, a pair of eyes — open, calm, seeing everything — above a closed, sealed mouth. Eyes open. Mouth shut. The contrast is deliberate and quiet. Aged parchment, minimalist ink brush, 9:16 vertical. Mood: the discipline of chosen silence."
+mood = "disciplined"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_24"
+start_hint = 95.5
+end_hint = 97.0
+duration_hint = 1.5
+narrative_role = "resolution"
+spoken_text = """Hiểu người không vạch trần."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, calm smile — standing before a covered birdcage, one hand resting gently on the cloth cover. He sees the bird inside; he does not lift the cloth. He knows — and keeps the knowledge with him, kindly. Parchment background, 9:16 vertical, minimalist watercolor."
+mood = "compassionate"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_25"
+start_hint = 97.0
+end_hint = 102.0
+duration_hint = 5.0
+narrative_role = "resolution"
+spoken_text = """Cảnh giới cao nhất của sự trưởng thành là giữ được sự điềm tĩnh trước mọi thị phi."""
+visual_intent = "A still mountain lake — glassy, perfectly reflective surface. Around the edge of the lake, tiny figures gesture and argue, mouths open. But the lake's surface remains unbroken, reflecting the sky above. Not a ripple. The arguments cannot touch the stillness of the water. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: supreme composure."
+mood = "unshakeable"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_26"
+start_hint = 102.0
+end_hint = 108.0
+duration_hint = 6.0
+narrative_role = "resolution"
+spoken_text = """Nhìn thấu nhưng không nói thấu, để giữ lại cho người khác một lối thoát và cho mình một sự an yên."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, a gentle knowing smile — seated across from an empty chair. The empty chair suggests another person who has just made a mistake. The Master says nothing. In his hands, a closed scroll — holding what he knows inside. His face is soft, not cold. He has chosen silence as a gift to both of them. Parchment background, 9:16 vertical."
+mood = "gracious"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_27"
+start_hint = 108.0
+end_hint = 113.0
+duration_hint = 5.0
+narrative_role = "resolution"
+spoken_text = """Hiểu người nhưng không vạch trần, luôn giữ nụ cười trên môi nhưng lòng có sự phòng bị."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe — a warm smile on his face. But behind his back, one hand quietly holds a closed fan — folded, ready. Not a weapon. A boundary. The smile and the hidden readiness coexist with complete serenity. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: warm vigilance."
+mood = "guarded-warmth"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_28"
+start_hint = 113.0
+end_hint = 115.5
+duration_hint = 2.5
+narrative_role = "resolution"
+spoken_text = """Miệng không nói, nhưng tâm sáng tựa gương."""
+visual_intent = "A polished bronze mirror, perfectly clean, hanging still in empty space. In front of it — nothing. But the mirror is luminous, catching every angle of light. It sees all, reflects all, says nothing. Aged parchment background, minimalist ink wash, 9:16 vertical. Mood: inner clarity without outward declaration."
+mood = "luminous-silence"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_29"
+start_hint = 115.5
+end_hint = 118.5
+duration_hint = 3.0
+narrative_role = "resolution"
+spoken_text = """Biết rõ mọi chuyện mà vẫn thản nhiên như không."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, serene half-smile — sipping tea from a small cup, eyes slightly lowered. Around him float tiny ink-brush fragments suggesting gossip, noise, drama — but he remains completely undisturbed, focused on his tea. Aged parchment, 9:16 vertical, minimalist watercolor. Mood: the art of appearing unbothered."
+mood = "untroubled"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_30"
+start_hint = 118.5
+end_hint = 125.0
+duration_hint = 6.5
+narrative_role = "resolution"
+spoken_text = """Giả khờ giữa chốn nhân gian không phải là yếu đuối, mà là sự minh triết của một bậc cao nhân thực thụ."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, playful innocent expression — holding a simple bamboo toy in one hand, appearing utterly simple. But his eyes — warm and ancient — carry the depth of someone who has seen everything. Simple outside, vast inside. Aged parchment, 9:16 vertical, minimalist watercolor. Mood: sacred simplicity."
+mood = "wise-innocence"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_31"
+start_hint = 125.0
+end_hint = 130.0
+duration_hint = 5.0
+narrative_role = "resolution"
+spoken_text = """Khi lòng bạn đủ tĩnh, thế gian sẽ không còn ai có thể làm bạn dao động."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe — standing alone at the center of the frame, very small, eyes closed, both hands resting over his heart. Around him, watercolor storm strokes suggest wind and noise — but his figure does not sway. He is the stillness inside the storm. Aged parchment, 85% negative space, 9:16 vertical. Mood: absolute inner stillness."
+mood = "stillness"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+# ════════════════════════════════════════════════════════
+# KẾT — TÂM THẾ THAY ĐỔI + CTA SÁCH TĨNH THỨC
+# ════════════════════════════════════════════════════════
+
+[[scene_intents]]
+id = "SC_32"
+start_hint = 130.0
+end_hint = 136.0
+duration_hint = 6.0
+narrative_role = "cta"
+spoken_text = """Khi thật sự hiểu bốn điều này, bạn sẽ nhận ra một sự thật quan trọng: thế giới bên ngoài không thay đổi nhiều."""
+visual_intent = "A window frame — simple, wooden, ancient — looking out onto a world that is unchanged: same trees, same sky, same light. But in the glass of the window, the viewer's reflection has shifted: the posture is calmer, the eyes are quieter. Same world; different self. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: quiet realization."
+mood = "realization"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_33"
+start_hint = 136.0
+end_hint = 138.5
+duration_hint = 2.5
+narrative_role = "cta"
+spoken_text = """Thứ thay đổi chính là tâm thế của chúng ta."""
+visual_intent = "Two identical ink silhouettes of a figure — one hunched, arms crossed, defensive. One upright, hands open, at peace. Same person. Different inner state. Arranged side by side in the center of parchment. Minimalist comparison, aged parchment, 9:16 vertical. Mood: the pivot point of all change."
+mood = "pivotal"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_34"
+start_hint = 138.5
+end_hint = 143.0
+duration_hint = 4.5
+narrative_role = "cta"
+spoken_text = """Người chưa đủ nhận thức luôn muốn tranh đúng sai, muốn chứng minh bản thân."""
+visual_intent = "Two tiny figures in the lower portion of the frame, pointing at each other, mouths open. Above them — empty sky, vast and indifferent, stretching into parchment infinity. The argument below looks very small against the emptiness above. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the smallness of ego-driven conflict."
+mood = "small"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_35"
+start_hint = 143.0
+end_hint = 148.5
+duration_hint = 5.5
+narrative_role = "cta"
+spoken_text = """Nhưng người trưởng thành lại học được cách bớt lời, lùi một bước và giữ cho mình sự bình thản."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe — taking one deliberate step backward, creating space. His head inclines slightly in a dignified bow. The gesture is not defeat — it is the elegant retreat of someone who has nothing to prove. Aged parchment, 9:16 vertical, minimalist watercolor. Mood: mature restraint."
+mood = "mature"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_36"
+start_hint = 148.5
+end_hint = 153.0
+duration_hint = 4.5
+narrative_role = "cta"
+spoken_text = """Rất nhiều phiền não trong đời thực ra bắt nguồn từ cách ta phản ứng với người khác."""
+visual_intent = "A calm pond surface — then a single small stone drops in. The ripples spread outward, disturbing everything. The stone is small. The ripples are large. The stone is not the other person — it is our own reaction. Aged parchment, minimalist watercolor ink wash, 9:16 vertical. Mood: the insight that our reaction is the source."
+mood = "insight"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_37"
+start_hint = 153.0
+end_hint = 158.5
+duration_hint = 5.5
+narrative_role = "cta"
+spoken_text = """Khi học được cách quan sát cảm xúc và nhìn thấu bản chất các mối quan hệ, nội tâm tự nhiên sẽ nhẹ nhõm hơn."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe — seated slightly apart from the action of the world, watching with the calm eyes of someone who understands. His posture is light, unlabored. A single deep exhale is implied in the soft looseness of his shoulders. Aged parchment, minimalist watercolor, 9:16 vertical. Mood: the lightness of understanding."
+mood = "lightened"
+preferred_shot_types = ["medium-shot", "still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_38"
+start_hint = 158.5
+end_hint = 162.0
+duration_hint = 3.5
+narrative_role = "cta"
+spoken_text = """Đó cũng chính là điều cuốn sách Tĩnh Thức này muốn truyền tải."""
+visual_intent = "A closed book lying on a bare wooden surface, its cover plain and quiet — no title visible yet. Beside it, a single incense stick burns, a thin curl of smoke rising undisturbed into empty parchment space. The book waits to be opened. Aged parchment background, minimalist watercolor, 9:16 vertical. Mood: quiet invitation."
+mood = "invitation"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_39"
+start_hint = 162.0
+end_hint = 174.0
+duration_hint = 12.0
+narrative_role = "cta"
+spoken_text = """Với 81 bài viết đánh thức nhận thức cùng 39 câu chuyện chiêm nghiệm về nhân sinh, cuốn sách giúp bạn hiểu rõ hơn những chiếc bẫy cảm xúc và cách giữ tâm bình lặng giữa thị phi."""
+visual_intent = "An open book lies in the frame, pages parting gently. From the pages, small ink-brush figures emerge — people in quiet contemplation, tiny stories unfolding like watercolor scenes. The pages seem alive with accumulated wisdom, soft and unhurried. Aged parchment background, minimalist watercolor, 9:16 vertical. Mood: the richness contained within stillness."
+mood = "rich"
+preferred_shot_types = ["still"]
+asset_requirements = ["ai_generated"]
+
+[[scene_intents]]
+id = "SC_40"
+start_hint = 174.0
+end_hint = 195.0
+duration_hint = 21.0
+narrative_role = "cta"
+spoken_text = """Khi nhận thức đủ sáng, bạn sẽ hiểu rằng trưởng thành không phải là thay đổi người khác, mà là không còn để những điều nhỏ nhặt làm mình dao động."""
+visual_intent = "Old Master — elderly man, thin white beard, muted brown robe, serene smile — standing alone on a gentle hilltop, back turned to viewer, facing a vast pale horizon. His figure is very small. The horizon is immense. He stands perfectly still — not because the world has gone quiet, but because he has. Aged parchment, 90% negative space, minimalist watercolor, 9:16 vertical. Mood: the final peace of a mind that has grown still."
+mood = "peace"
+preferred_shot_types = ["wide-shot", "still"]
+asset_requirements = ["ai_generated"]

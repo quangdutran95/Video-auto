@@ -112,7 +112,10 @@ def call_gemini_json(
                 except Exception:
                     detail = ""
                 errors.append(f"{model}: HTTP {exc.code} {detail[:240]}")
-                if exc.code in (429, 500, 502, 503, 504) and attempt < retries_per_model - 1:
+                if exc.code == 429:
+                    time.sleep(15)
+                    continue
+                if exc.code in (500, 502, 503, 504) and attempt < retries_per_model - 1:
                     time.sleep(2 ** attempt)
                     continue
                 break
